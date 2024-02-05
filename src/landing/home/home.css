@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+#home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 3rem 0rem 60px 0rem;
+    margin: 0 2rem;
+    text-align: center;
+    height: calc(100vh - 50px);
+}
+
+#home img {
+    width: 100%;
+    height: auto;
+    padding-right: 0.5rem;
+    border: #48bb78 1px solid;
+}
+
+.home-text {
+    text-align: left;
+}
+
+.home-text h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    padding: 1rem 0;
+    width: 80%;
+}
+
+.home-text p {
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 2.5rem;
+    width: 90%;
+}
+
+.cta-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    width: fit-content;
+}
+
+.button-1 {
+    border: #2C7A7B 2px solid;
+    background-color: transparent;
+    color: #2C7A7B;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 900;
+    cursor: pointer;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.greentext {
+    color: inherit;
+    background-image: linear-gradient(to top right, #319795, #48bb78);
+    color: transparent;
+    background-clip: text;
+}
+
+.button-2 {
+    border: none;
+    background-image: linear-gradient(to top right, #319795, #48bb78);
+    color: #fff;
+    padding: 12px;
+    font-size: 18px;
+    font-weight: 900;
+    cursor: pointer;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 1rem;
+}
+
+@media screen and (min-width: 1024px) {
+    #home {
+        flex-direction: row;
+    }
+
+    .home-img {
+        width: 45%;
+        height: auto;
+        margin-right: 3rem;
+    }
+
+    .home-text {
+        text-align: left;
+        width: 40%;
+    }
+
+    .home-text h1 {
+        font-size: 3.5rem;
+        font-weight: 700;
+        margin: 0;
+        padding: 1rem 0;
+        width: 100%;
+    }
+
+    .home-text p {
+        font-size: 1.2rem;
+        font-weight: 400;
+        margin: 0;
+        padding-bottom: 1.5rem;
+        width: 70%;
+    }
+
+    .button-1 {
+        transition: all 0.2s ease-in-out;
+    }
+
+    .button-1:hover {
+        background-image: linear-gradient(to top right, #319795, #48bb78);
+        color: #fff;
+    }
+
+    .button-2 {
+        transition: all 0.2s ease-in-out;
+    }
+
+    .button-2:hover {
+        color: black;
+    }
+}

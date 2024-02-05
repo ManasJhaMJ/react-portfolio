@@ -1,11 +1,13 @@
-import React, { PureComponent } from 'react'
+import React from 'react'
+import './landing.css'
+import Home from './home/home';
 
-export class landing extends PureComponent {
-    render() {
-        return (
-            <div>landing</div>
-        )
-    }
+function landing() {
+    return (
+        <>
+            <Home />
+        </>
+    )
 }
 
 export default landing;
