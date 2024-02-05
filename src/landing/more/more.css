@@ -1,0 +1,89 @@
+#des-dev {
+    margin: 3rem 2rem;
+    text-align: center;
+    height: 100vh;
+}
+
+.des-dev-text {
+    padding-bottom: 2rem;
+}
+
+#des-dev h2 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin: 0;
+    padding: 1rem 0;
+}
+
+#des-dev h3 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin: 0;
+    padding: 1rem 0;
+}
+
+#des-dev p {
+    font-size: 0.8rem;
+    font-weight: 400;
+    margin: 0;
+    padding-bottom: 2.5rem;
+}
+
+#des-dev img {
+    width: 70px;
+    height: auto;
+    padding: 0.5rem;
+}
+
+@media screen and (min-width: 1024px) {
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+    }
+
+    .container-col {
+        width: 30%;
+        height: auto;
+        padding: 10px 50px;
+    }
+
+    #des-dev {
+        margin: 0px 3rem;
+        width: auto;
+        height: 80vh;
+    }
+
+    #des-dev h2 {
+        font-size: 3rem;
+        font-weight: 700;
+        margin: 0;
+        padding: 1rem 0;
+    }
+
+    #des-dev h3 {
+        font-size: 2rem;
+        font-weight: 600;
+        margin: 0;
+        padding: 1rem 0;
+    }
+
+    .des-dev-text {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .des-dev-text p {
+        width: 50% !important;
+    }
+
+    #des-dev p {
+        font-size: 1.1rem;
+        font-weight: 400;
+        width: 100%;
+        margin: 0;
+        padding-bottom: 2.5rem;
+    }
+}
