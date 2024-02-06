@@ -30,7 +30,7 @@ a {
 }
 
 nav {
-    background-color: #140439;
+    background-color: transparent;
     color: #fff;
     display: flex;
     justify-content: space-between;
