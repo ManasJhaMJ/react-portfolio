@@ -3,25 +3,25 @@ import './home.css'
 
 function home() {
     return (
-        <section id="home" class="reveal">
-            <div class="home-img">
+        <section id="home" className="reveal">
+            <div className="home-img">
                 <img alt="me" src="https://www.manasjha.me/images/landing.avif" />
             </div>
-            <div class="home-text">
-                <h1>I'm <span class="greentext">Manas Jha</span>, Web <span class="greentext">Developer</span> and <span
-                    class="greentext"> designer.</span>
+            <div className="home-text">
+                <h1>I'm <span className="greentext">Manas Jha</span>, Web <span className="greentext">Developer</span> and <span
+                    className="greentext"> designer.</span>
                 </h1>
-                <p>I am based in India. I design and Develop <span class="greentext">attractive</span> and <span
-                    class="greentext">appealing</span> web
-                    applications with a focus on <span class="greentext">user experience</span> and
-                    <span class="greentext"> quality</span>.
+                <p>I am based in India. I design and Develop <span className="greentext">attractive</span> and <span
+                    className="greentext">appealing</span> web
+                    applications with a focus on <span className="greentext">user experience</span> and
+                    <span className="greentext"> quality</span>.
                 </p>
-                <div class="cta-group">
+                <div className="cta-group">
                     <a aria-label="contact me button" href="./pages/contact.html"><button name="contact me"
-                        class="button-1">Contact
+                        className="button-1">Contact
                         Me</button></a>
                     <a aria-label="My work and projects" href="#projects"><button name="my work/projects"
-                        class="button-2">My Work</button></a>
+                        className="button-2">My Work</button></a>
                 </div>
             </div>
         </section>

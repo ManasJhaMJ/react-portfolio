@@ -3,8 +3,8 @@ import './more.css'
 
 function more() {
     return (
-        <section id="des-dev" class="reveal">
-            <div class="des-dev-text">
+        <section id="des-dev" className="reveal">
+            <div className="des-dev-text">
                 <h2>Creative Design for High Quality Development.</h2>
                 <p>
                     I oversee the entire product development journey, from crafting the interface to delivering a fully
@@ -12,8 +12,8 @@ function more() {
                     software for a seamless user experience.
                 </p>
             </div>
-            <div class="container">
-                <div class="container-col">
+            <div className="container">
+                <div className="container-col">
                     <img alt="1" src="https://www.manasjha.me/images/1.svg" />
                     <h3>Designing</h3>
                     <p>
@@ -21,7 +21,7 @@ function more() {
                         typography and more, all pixel perfect and beautiful.
                     </p>
                 </div>
-                <div class="container-col">
+                <div className="container-col">
                     <img alt="2" src="https://www.manasjha.me/images/2.svg" />
                     <h3>Development</h3>
                     <p>

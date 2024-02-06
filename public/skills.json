@@ -1,0 +1,17 @@
+[
+    { "src" : "https://www.manasjha.me/images/icons/html.svg" , "alt" : "HTML5"},
+    { "src" : "https://www.manasjha.me/images/icons/css.svg" , "alt" : "CSS3"},
+    { "src" : "https://www.manasjha.me/images/icons/js.svg" , "alt" : "Javascript"},
+    { "src" : "https://www.manasjha.me/images/icons/jquery.svg" , "alt" : "Jquery"},
+    { "src" : "https://www.manasjha.me/images/icons/tailwind.svg" , "alt" : "Tailwind"},
+    { "src" : "https://www.manasjha.me/images/icons/bootstrap.svg" , "alt" : "Bootstrap"},
+    { "src" : "https://www.manasjha.me/images/icons/react.svg" , "alt" : "React"},
+    { "src" : "https://www.manasjha.me/images/icons/nodejs.svg" , "alt" : "NodeJs"},
+    { "src" : "https://www.manasjha.me/images/icons/git.svg" , "alt" : "Git"},
+    { "src" : "https://www.manasjha.me/images/icons/express.svg" , "alt" : "ExpressJs"},
+    { "src" : "https://www.manasjha.me/images/icons/postgre.svg" , "alt" : "PostgreSQL"},
+    { "src" : "https://www.manasjha.me/images/icons/sass.svg" , "alt" : "Sass"},
+    { "src" : "https://www.manasjha.me/images/icons/canva.svg" , "alt" : "Canva"},
+    { "src" : "https://www.manasjha.me/images/icons/figma.svg" , "alt" : "Figma"},
+    { "src" : "https://www.manasjha.me/images/icons/unity.svg" , "alt" : "Unity"}
+]
