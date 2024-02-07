@@ -1,0 +1,56 @@
+.work {
+    margin: 100px 2rem;
+    text-align: left;
+    height: auto;
+    background-image: linear-gradient(to right, #cbd5e0, #ecc94b, #fbb6ce);
+    border-radius: 10px;
+    padding: 15px 20px;
+    color: black;
+}
+
+.work h1 {
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin: 0;
+    padding: 1.5rem 0 0 0;
+}
+
+.button-3 {
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 900;
+    cursor: pointer;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+@media screen and (min-width: 1024px) {
+    .button-3:hover {
+        transition: all 0.2s ease-in-out;
+        background-color: white;
+        color: black;
+    }
+
+    .work {
+        width: 50%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 0 auto;
+        margin-bottom: 4rem;
+    }
+
+    .work h1 {
+        font-size: 2rem;
+        font-weight: 600;
+        margin: 0;
+        padding: 1.5rem 0 0 0;
+    }
+}

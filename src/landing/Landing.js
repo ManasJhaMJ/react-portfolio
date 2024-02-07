@@ -4,6 +4,7 @@ import Home from './home/home';
 import More from './more/more';
 import Skills from './skills/skills';
 import Projects from './projects/projects';
+import Work from '../work/work';
 
 function Landing() {
     const [jsonData0, setJsonData0] = useState([]);
@@ -28,6 +29,7 @@ function Landing() {
             <More />
             <Skills jsonData={jsonData0} />
             <Projects jsonData={jsonData1} />
+            <Work />
         </>
     )
 }
