@@ -3,3 +3,9 @@ html {
   color: #fff;
   background: url(https://www.manasjha.me/images/bg.avif) no-repeat center center fixed;
 }
+
+.light-mode {
+  background-color: #fff;
+  color: #000;
+  background: url(https://www.manasjha.me/images/bg-white.avif) no-repeat center center fixed;
+}
