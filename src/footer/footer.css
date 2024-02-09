@@ -1,0 +1,38 @@
+footer {
+    margin: 170px 0 30px 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-socials {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-socials img {
+    width: 20px;
+    height: auto;
+    margin: 0 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background: linear-gradient(to top right, #319795, #48bb78);
+    transition: all 0.2s ease-in-out;
+    opacity: 0.9;
+}
+
+.footer-socials img:hover {
+    transform: translate(0, -5px);
+    opacity: 0.7;
+
+}
+
+
+@media screen and (min-width: 1024px) {
+    footer {
+        flex-direction: row;
+    }
+}
