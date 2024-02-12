@@ -17,10 +17,13 @@ const exp = ({ props }) => {
                     {props.location}
                     <br /><br />
                 </div>
-                <span class="bullets">
+                {props.tags.map((tag, i) => (
+                    <span key={i} className="exp-tags">{tag}</span>
+                ))};
+                {/* <span class="bullets">
                     <span>●</span>
                     <p>{props.desc}</p>
-                </span>
+                </span> */}
             </div>
         </div>
     )
