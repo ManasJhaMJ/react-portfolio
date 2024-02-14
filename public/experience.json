@@ -1,0 +1,33 @@
+[
+    {
+        "date": "Nov 2023 - Present",
+        "title": "Frontend Developer and Designer",
+        "company": "BestUPay",
+        "location": "Noida, UP (remote)",
+        "tag": "" 
+    },
+
+    {
+        "date": "Nov 2023 - Dec 2023",
+        "title": "Community Manager",
+        "company": "The Crew",
+        "location": "Delhi, India (Hybrid)",
+        "tag": "" 
+    },
+
+    {
+        "date": "Sep 2023 - Present",
+        "title": "Jr. Web Development Head",
+        "company": "MRSDC",
+        "location": "MR, Faridabad, Haryana",
+        "tag": "" 
+    },
+
+    {
+        "date": "Jan 2023 - Present",
+        "title": "GDSC Volunteer",
+        "company": "Google DSC",
+        "location": "MR, Faridabad, Haryana",
+        "tag": "" 
+    }
+]
