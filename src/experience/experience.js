@@ -2,12 +2,12 @@ import React from 'react'
 import './experience.css'
 import Exp from './exp/exp'
 
-const experience = ({ jsondata }) => {
+const experience = ({ jsonData }) => {
     return (
         <section id="experience">
-            <h1>My Experience</h1>function
+            <h1>My Experience</h1>
             <div class="exp-container">
-                {jsondata.map((props, index) => (
+                {jsonData.map((props, index) => (
                     <Exp key={index} props={props} />
                 ))}
                 <hr />
